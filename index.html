@@ -13,21 +13,32 @@
     <!-- css style file link  -->
     <link rel="stylesheet" href="style/style.css" />
 
+    <!-- icon link  -->
+    <script
+      src="https://kit.fontawesome.com/3f853b87cc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="container">
-      <nav class="navbar-container">
+      <nav class="navbar-container navbar">
         <h1 class="navbar-title">MIZAN</h1>
         <ul class="navbar-items">
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#project">Project</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <a class="navbar-btn"
+          >Download Resume <i class="fa-solid fa-circle-down"></i
+        ></a>
       </nav>
     </header>
 
     <main class="container">
       <!-- banner section  -->
-      <section class="banner-section">
+      <section class="banner-section" id="home">
         <div>
           <h1 class="banner-title">Mizanur Rahman</h1>
           <h4 class="banner-sub-title">
@@ -43,22 +54,16 @@
             Take a look at some of my recent projects, and feel free to get in
             touch!
           </p>
-          <div class="social-links">
-            <a href="https://www.facebook.com/mi.ja.na.627592/" target="_blank">
-              <img src="images/facebook.png" alt="" />
-            </a>
-            <a href="https://github.com/MHMIZAN09" target="_blank">
-              <img src="images/github.png" alt="" />
-            </a>
-            <a href="mailto:mhmizan550@gmail.com">
-              <img src="images/gmail.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="images/linkedin.png" alt="" />
-            </a>
-            <a href="#">
-              <img src="images/discord.png" alt="" />
-            </a>
+
+          <div>
+            <a class="hire-btn" href="#">
+              Hire Me
+              <i class="fa-solid fa-arrow-right"></i
+            ></a>
+            <a class="work-btn" href="#project">
+              <i class="fa-brands fa-github"></i>
+              See My Work</a
+            >
           </div>
         </div>
         <div>
@@ -69,7 +74,7 @@
       <!-- about section  -->
       <section id="about">
         <div class="about-container">
-          <h2 class="about-title">About <span>Me</span></h2>
+          <h2 class="about-title">About Me</h2>
           <p class="about-description">
             I'm <strong>Mizanur Rahman</strong>, a
             <strong>Computer Science & Engineering (CSE) student</strong> at
@@ -89,25 +94,256 @@
             clean, maintainable code and constantly improving my problem-solving
             skills.
           </p>
+          <!-- educational section  -->
+          <div>
+            <h2 class="edu-title">Education</h2>
 
+            <div class="edu-items">
+              <img src="/images/green.png" alt="" />
+              <div>
+                <h4>Green University of Bangladesh</h4>
+                <h5>
+                  B.Sc (Eng.) in department of (CSE )-Computer Science and
+                  Engineering
+                </h5>
+                <p>February 2022 - Present</p>
+              </div>
+            </div>
+            <div class="edu-items">
+              <img src="/images/pabna-removebg-preview.png" alt="" />
+              <div>
+                <h4>Pabna Government College</h4>
+                <h5>Higher Secondary Certificate (HSC) - Science</h5>
+                <p>2XXX - 2XXX</p>
+              </div>
+            </div>
+            <div class="edu-items">
+              <img src="/images/ssc-removebg-preview.png" alt="" />
+              <div>
+                <h4>Ratangonj Multilateral High School</h4>
+                <h5>Secondary School Certificate (SSC) - Science</h5>
+                <p>2XXX - 2XXX</p>
+              </div>
+            </div>
+          </div>
+          <!-- skills section -->
           <div class="skills-container">
-            <h2 class="skill-title">My Skills</h2>
+            <h2 class="skill-title">Skills</h2>
             <ul class="skills-list">
               <li>
-                <strong>Front-End Development:</strong> React.js, Next.js,
-                JavaScript, HTML, CSS, Tailwind CSS
+                <strong>Languages:</strong>
+                <div>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-c-programming.svg"
+                      alt=""
+                    />
+                    C Programming
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-c.svg"
+                      alt=""
+                    />
+                    C++ Programming
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-python.svg"
+                      alt=""
+                    />Python
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-java.svg"
+                      alt=""
+                    />
+                    Java
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-kotlin.svg"
+                      alt=""
+                    />
+                    Kotlin
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <strong>Front-End Development:</strong>
+                <div>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-react-js.svg"
+                      alt=""
+                    />
+                    React.Js
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-nextjs.svg"
+                      alt=""
+                    />
+                    Next.Js
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-vite.svg"
+                      alt=""
+                    />Vite
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-javascript.svg"
+                      alt=""
+                    />
+                    JavaScript
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-typescript.svg"
+                      alt=""
+                    />
+                    TypeScript
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-html.svg"
+                      alt=""
+                    />
+                    HTML
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-css.svg"
+                      alt=""
+                    />
+                    CSS
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-tailwind-css.svg"
+                      alt=""
+                    />
+                    Tailwind CSS
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-bootstrap.svg"
+                      alt=""
+                    />
+
+                    Bootstrap
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <strong>Back-End Knowledge:</strong>
+                <div>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-nodejs.svg"
+                      alt=""
+                    />
+                    Node.Js
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-express-js.svg"
+                      alt=""
+                    />
+                    Express.Js
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-mysql.svg"
+                      alt=""
+                    />MySQl
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-postgresql.svg"
+                      alt=""
+                    />
+                    PostgreSQL
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-mongodb.svg"
+                      alt=""
+                    />
+                    MongoDB
+                  </a>
+                </div>
               </li>
               <li>
-                <strong>Back-End Knowledge:</strong> Node.js, Express.js,
-                MongoDB, PostgreSQL
-              </li>
-              <li>
-                <strong>Version Control & Tools:</strong> Git, GitHub, VS Code,
-                Postman
-              </li>
-              <li>
-                <strong>Other Interests:</strong> UI/UX Design, Performance
-                Optimization, Automation
+                <strong>Version Control & Tools:</strong>
+                <div>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-git.svg"
+                      alt=""
+                    />
+                    Git
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-github.svg"
+                      alt=""
+                    />
+                    GitHub
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-docker.svg"
+                      alt=""
+                    />Docker
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-vs-code.svg"
+                      alt=""
+                    />
+                    VS Code
+                  </a>
+                  <a href="#" class="language">
+                    <img class="language-img" src="images/postman.svg" alt="" />
+                    Postman
+                  </a>
+                  <a href="#" class="language">
+                    <img
+                      class="language-img"
+                      src="/images/icons8-figma.svg"
+                      alt=""
+                    />
+                    Figma
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -116,7 +352,7 @@
       <!-- project section  -->
       <section id="project">
         <div class="project-container">
-          <h2 class="project-title">My <span>Projects</span></h2>
+          <h2 class="project-title">Projects</h2>
           <p class="project-description">
             Here are some of the projects I've worked on. I love building web
             applications that are efficient, user-friendly, and scalable.
@@ -129,14 +365,16 @@
                 alt="Project 1 Screenshot"
                 class="project-image"
               />
-              <p class="project-title">Donate-Bangladesh</p>
+              <h3 class="project-subtitle">Donate-Bangladesh</h3>
               <p class="project-description"></p>
               <a
                 href="https://mhmizan09.github.io/Donate-Bangladesh/"
                 class="project-link"
                 target="_blank"
-                >Demo</a
-              >
+                id="show-project"
+                >Demo
+                <i class="fa-solid fa-eye"></i>
+              </a>
             </div>
             <!-- Project 2 -->
             <div class="project-card">
@@ -145,14 +383,16 @@
                 alt="Project 1 Screenshot"
                 class="project-image"
               />
-              <h3 class="project-title">fitness-website</h3>
+              <h3 class="project-subtitle">fitness-website</h3>
               <p class="project-description"></p>
               <a
                 href="https://mhmizan09.github.io/fitness-website/"
                 class="project-link"
                 target="_blank"
-                >Demo</a
-              >
+                id="show-project"
+                >Demo
+                <i class="fa-solid fa-eye"></i>
+              </a>
             </div>
             <!-- Project 3 -->
             <div class="project-card">
@@ -161,16 +401,101 @@
                 alt="Project 1 Screenshot"
                 class="project-image"
               />
-              <h3 class="project-title">Rinterio</h3>
+              <h3 class="project-subtitle">Rinterio</h3>
               <p class="project-description"></p>
               <a
                 href="https://mhmizan09.github.io/Rinterio-Assignment-03/"
                 class="project-link"
                 target="_blank"
-                >Demo</a
+                id="show-project"
               >
+                Demo
+                <i class="fa-solid fa-eye"></i>
+              </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- contact section  -->
+      <section id="contact">
+        <h1 class="contact-title">Contact Me</h1>
+        <p>
+          If you have any inquiries, or if you want to hire me for any project,
+          feel free to reach out to me, You can also contact me.
+        </p>
+        <div class="contact-container">
+          <div class="social-links">
+            <div class="social-link">
+              <a
+                href="https://www.facebook.com/mi.ja.na.627592/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+              </a>
+            </div>
+            <div class="social-link">
+              <a href="https://github.com/MHMIZAN09" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+              </a>
+            </div>
+            <div class="social-link">
+              <a href="mailto:mhmizan550@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                Email
+              </a>
+            </div>
+            <div class="social-link">
+              <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+                Linkedin
+              </a>
+            </div>
+            <div class="social-link">
+              <a href="#">
+                <i class="fa-brands fa-discord"></i>
+                Discord
+              </a>
+            </div>
+          </div>
+          <form>
+            <div class="form-container">
+              <div>
+                <label for="name">Your Name</label>
+                <br />
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div>
+                <label for="name">Email</label>
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="name">Massage</label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Leave me a message..."
+              ></textarea>
+            </div>
+            <input type="submit" value="Sent Message" id="submit" />
+          </form>
         </div>
       </section>
     </main>
